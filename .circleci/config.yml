@@ -6,6 +6,13 @@ jobs:
     executor: newman/postman-newman-docker
     steps:
       - checkout
+      - run: 
+        npm install
+      - run:
+          name: Start TodoMVC server
+          command: npm start
+          working_directory: todomvv
+          background: true
       - newman/newman-run:
           collection: ./collection.json
 workflows:
