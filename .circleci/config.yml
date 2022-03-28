@@ -8,3 +8,7 @@ jobs:
       - checkout
       - newman/newman-run:
           collection: ./collection.json
+workflows:
+  example-workflow:
+    jobs:
+      - newman-collection-run
