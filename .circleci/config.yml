@@ -6,8 +6,7 @@ jobs:
     executor: newman/postman-newman-docker
     steps:
       - checkout
-      - run: 
-        npm install
+      - run: npm install
       - run:
           name: Start TodoMVC server
           command: npm start
