@@ -12,4 +12,3 @@ workflows:
       - cypress/run:
           start: npm start
           store_artifacts: true
-          record: true
