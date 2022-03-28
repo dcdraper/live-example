@@ -1,9 +1,3 @@
 {
-  "todos": [
-    {
-      "title": "eat",
-      "completed": false,
-      "id": "0757011418"
-    }
-  ]
+  "todos": []
 }
