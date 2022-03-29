@@ -14,9 +14,9 @@ jobs:
           background: true
       - newman/newman-run:
           collection: ./collection.json
-          additional-options: --reporters cli,json --reporter-json-export results/outputfile.json
+          additional-options: --reporters cli,json --reporter-json-export ./results/outputfile.json
       - store_test_results:
-          path: results
+          path: ./results
 workflows:
   example-workflow:
     jobs:
