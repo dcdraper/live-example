@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Live Example Tests" tests="6" time="0.184">
-  <testsuite name="Get Todos" id="fa00409d-e440-43ae-a6df-281a5bbc4197" timestamp="2022-03-29T00:49:39.838Z" tests="1" failures="0" errors="0" time="0.049">
-    <testcase name="Status code is 200" time="0.049" classname="LiveExampleTests"/>
+<testsuites name="Live Example Tests" tests="6" time="0.188">
+  <testsuite name="Get Todos" id="26e72035-7133-4ec5-a29c-ec69a0522a00" timestamp="2022-03-29T00:51:46.545Z" tests="1" failures="0" errors="0" time="0.052">
+    <testcase name="Status code is 200" time="0.052" classname="LiveExampleTests"/>
   </testsuite>
-  <testsuite name="Post Todo" id="54fa8782-57f9-46c3-af7a-2c4bf92eb693" timestamp="2022-03-29T00:49:39.838Z" tests="1" failures="1" errors="0" time="0.034">
+  <testsuite name="Post Todo" id="3521369c-e288-4e63-b122-4de50f11f71a" timestamp="2022-03-29T00:51:46.545Z" tests="1" failures="1" errors="0" time="0.034">
     <testcase name="Status code is 201" time="0.034" classname="LiveExampleTests">
       <failure type="AssertionFailure" message="expected response to have status code 20111111 but got 201">
         <![CDATA[Failed 1 times.]]>
@@ -17,16 +17,16 @@
       </failure>
     </testcase>
   </testsuite>
-  <testsuite name="http://localhost:3000/todos" id="efb0e3d7-31b3-4e4c-aaab-13bf67331396" timestamp="2022-03-29T00:49:39.838Z" tests="1" failures="0" errors="0" time="0.032">
-    <testcase name="Status code is 200" time="0.032" classname="LiveExampleTests"/>
+  <testsuite name="http://localhost:3000/todos" id="0db1acdf-40cd-41d9-8e5e-3036b398d9ca" timestamp="2022-03-29T00:51:46.545Z" tests="1" failures="0" errors="0" time="0.033">
+    <testcase name="Status code is 200" time="0.033" classname="LiveExampleTests"/>
   </testsuite>
-  <testsuite name="Delete the Todo" id="f6bf2ee4-5673-4644-8309-6f3c975597a0" timestamp="2022-03-29T00:49:39.838Z" tests="1" failures="0" errors="0" time="0.032">
-    <testcase name="successful response" time="0.032" classname="LiveExampleTests"/>
+  <testsuite name="Delete the Todo" id="79c7b041-fbe5-4c3b-835a-21aaf9586d44" timestamp="2022-03-29T00:51:46.545Z" tests="1" failures="0" errors="0" time="0.034">
+    <testcase name="successful response" time="0.034" classname="LiveExampleTests"/>
   </testsuite>
-  <testsuite name="Get the created Todo" id="af4c1cb0-9cc0-4e8b-b9b4-ebed7e84811f" timestamp="2022-03-29T00:49:39.838Z" tests="1" failures="0" errors="0" time="0.033">
-    <testcase name="Status code is 404" time="0.033" classname="LiveExampleTests"/>
+  <testsuite name="Get the created Todo" id="a5d85014-f1eb-4d19-869d-0e3812deeb3a" timestamp="2022-03-29T00:51:46.545Z" tests="1" failures="0" errors="0" time="0.032">
+    <testcase name="Status code is 404" time="0.032" classname="LiveExampleTests"/>
   </testsuite>
-  <testsuite name="Reset Todos" id="05f5b429-a598-434c-9fa0-d61faa80148b" timestamp="2022-03-29T00:49:39.838Z" tests="1" failures="0" errors="0" time="0.004">
-    <testcase name="Status code is 200" time="0.004" classname="LiveExampleTests"/>
+  <testsuite name="Reset Todos" id="e442849e-2def-4415-adbc-c5e6d67e06e6" timestamp="2022-03-29T00:51:46.545Z" tests="1" failures="0" errors="0" time="0.003">
+    <testcase name="Status code is 200" time="0.003" classname="LiveExampleTests"/>
   </testsuite>
 </testsuites>
