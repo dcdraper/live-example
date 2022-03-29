@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Live Example Tests" tests="6" time="0.183">
+  <testsuite name="Get Todos" id="3a406f99-78de-4da4-92ca-167813037796" timestamp="2022-03-29T00:47:33.746Z" tests="1" failures="0" errors="0" time="0.051">
+    <testcase name="Status code is 200" time="0.051" classname="LiveExampleTests"/>
+  </testsuite>
+  <testsuite name="Post Todo" id="e3076cae-80ad-4511-b41a-cd4cb5605ead" timestamp="2022-03-29T00:47:33.746Z" tests="1" failures="0" errors="0" time="0.033">
+    <testcase name="Status code is 201" time="0.033" classname="LiveExampleTests"/>
+  </testsuite>
+  <testsuite name="http://localhost:3000/todos" id="250b29fa-639b-416b-b94d-942654a3d7f3" timestamp="2022-03-29T00:47:33.746Z" tests="1" failures="0" errors="0" time="0.033">
+    <testcase name="Status code is 200" time="0.033" classname="LiveExampleTests"/>
+  </testsuite>
+  <testsuite name="Delete the Todo" id="f08e9379-5986-46ed-8f1b-9f0e48195c60" timestamp="2022-03-29T00:47:33.746Z" tests="1" failures="0" errors="0" time="0.033">
+    <testcase name="successful response" time="0.033" classname="LiveExampleTests"/>
+  </testsuite>
+  <testsuite name="Get the created Todo" id="8d799189-a4f5-4551-a5a6-8f9a4ff64e34" timestamp="2022-03-29T00:47:33.746Z" tests="1" failures="0" errors="0" time="0.030">
+    <testcase name="Status code is 404" time="0.030" classname="LiveExampleTests"/>
+  </testsuite>
+  <testsuite name="Reset Todos" id="b2e7a90b-9c79-47fc-a98e-ab440cf5e483" timestamp="2022-03-29T00:47:33.746Z" tests="1" failures="0" errors="0" time="0.003">
+    <testcase name="Status code is 200" time="0.003" classname="LiveExampleTests"/>
+  </testsuite>
+</testsuites>
