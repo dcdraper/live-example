@@ -16,7 +16,7 @@ jobs:
           collection: ./collection.json
           additional-options: --reporter-json-export results\outputfile.json
       - store_test_results:
-    path: results
+          path: results
 workflows:
   example-workflow:
     jobs:
